@@ -14,12 +14,6 @@ const Search = ({ searchUsers, showClear, clearUsers, setAlert }) => {
       searchUsers(text);
       setText('');
     }
-    // Reach Out to GitHub API and Search For User
-    /* 1. Use Axios API call a GET by this.state.text Method - GET /search/users/q
-     *
-     *
-     *
-     */
   };
 
   return (
